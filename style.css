@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+}
+.container{
+    width: 22%;
+    height: 80%;
+    border-radius: 20px;
+    position: relative;
+    margin-top: -20px;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(191, 108, 108);
+}
+.nav{
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    background-color: blue;
+    background-color: rgb(191, 108, 108);
+
+}
+.nav >h1{
+    font-size: 15px;
+    color: white;
+    margin: 5px 10px;
+}
+.icon{
+    margin: 0 210px;
+    
+    display: flex;
+}
+.icon > i{
+    font-size: 15px;
+    color: white;
+    margin: 5px 2px;
+}
+.top{
+    width: 100%;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top > i{
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 4.4%;
+}
+.top > h1{
+    font-size: 20px;
+    color: white;
+    margin: 15px;
+}
+.middle{
+    width: 85%;
+    position: relative;
+    border-radius: 20px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    background-color: aliceblue;
+}
+.frist{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.part1 > h1{
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+}
+.part{
+    gap: 10px;
+    display: flex;
+    line-height: 1.5;
+}
+.right > span{
+    font-size: 12px;
+    font-weight: 600;
+}
+.right > h1{
+    font-weight: 900;
+    font-size: 15px;
+
+}
+.address{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.ind > i{
+    font-size: 40px;
+    margin-top: 0px;
+}
+.ind > h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 5px 0;
+}
+.ind > span{
+    font-size: 15px;
+    margin: 0 5px;
+    font-weight: 700;
+}
+.timing{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    gap: 70px;
+    border-bottom: 1px solid gray;
+}
+.time{
+    line-height: 1.5;
+}
+.time > h1{
+    font-size: 10px;
+    font-weight: 700;
+}
+.time > span{
+    font-size: 10px;
+    font-weight: 700;
+}
+.timin{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    gap: 90px;
+}
+.middle > img{
+    width: 60%;
+    height: 35%;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+}
+.container > button{
+    padding: 8px 30px;
+    top: 93%;
+    left: 35%;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+     border: none;
+    position: absolute;
+    border-radius: 30px;
+}
